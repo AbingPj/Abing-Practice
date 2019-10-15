@@ -14,7 +14,16 @@ const mix = require("laravel-mix");
 mix.js("resources/js/app.js", "public/js").sass(
     "resources/sass/app.scss",
     "public/css"
+).copyDirectory(
+    "node_modules/chart.js/dist/Chart.js",
+    "public/js"
 );
+
+
+
+
+
+
 // .copyDirectory(
 //     "node_modules/gasparesganga-jquery-loading-overlay/dist",
 //     "public/js"
