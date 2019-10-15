@@ -7,6 +7,9 @@ require("./bootstrap");
 window.Vue = require("vue");
 import VueEvents from "vue-events";
 window.Vue.use(VueEvents);
+
+
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -58,6 +61,10 @@ Vue.component(
     require("./components/UserPosts/UserPosts.vue").default
 );
 
+Vue.component(
+    "chartjs-component",
+    require("./components/Chartjs.vue").default
+);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
