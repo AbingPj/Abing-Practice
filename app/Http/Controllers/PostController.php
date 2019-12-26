@@ -15,6 +15,12 @@ use Illuminate\Support\Facades\Storage;
 class PostController extends Controller
 {
 
+    public function sendPusher(Request $request){
+        // broadcast(new MyEvent( $request->input('input') ));
+        $data = $request->input('data');
+        dump($data );
+        event(new MyEvent($data));
+    }
     // public function __construct(){
     //     $this->middleware('auth');
     // }

@@ -3,6 +3,7 @@
 
 <head>
     @include('layouts.partials.head')
+    @yield('head')
 </head>
 
 <body>

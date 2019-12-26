@@ -8,6 +8,8 @@ window.Vue = require("vue");
 import VueEvents from "vue-events";
 window.Vue.use(VueEvents);
 
+require('bootstrap-tour');
+
 
 
 /**
@@ -63,7 +65,11 @@ Vue.component(
 
 Vue.component(
     "chartjs-component",
-    require("./components/Chartjs.vue").default
+    require("./components/samples/Chartjs.vue").default
+);
+Vue.component(
+    "pusher-sample",
+    require("./components/samples/Pusher.vue").default
 );
 /**
  * Next, we will create a fresh Vue application instance and attach it to

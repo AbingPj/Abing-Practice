@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-  
+    <script src="{{ asset('js/app.js') }}"></script>
+     {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> --}}
     <title>My Chart Js
     </title>
 </head>
@@ -28,7 +29,7 @@
         </div>
     </div>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+   
     {{-- <script src="{{ asset('js/Chart.js') }}" defer></script> --}}
     <script>
         let myChart2 = document.getElementById('myChart2').getContext('2d');

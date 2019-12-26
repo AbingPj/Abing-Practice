@@ -19,6 +19,14 @@ Route::get('/chartjs', function () {
     return view('chartjs');
 });
 
+Route::get('/bstour', function () {
+    return view('bstour');
+});
+
+Route::get('/pusher', function () {
+    return view('pusher');
+});
+
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -38,3 +46,8 @@ Route::get('/posttables', 'PostController@postTables')->name('post.tables');
 
 Route::get('/user-posts/{id}', 'UserPostsController@index')->name('user.posts');
 Route::get('/getuser-posts/{id}', 'UserPostsController@getUserPosts');
+
+
+
+// Sample Pusher
+Route::post('/send/pusher', 'PostController@sendPusher');

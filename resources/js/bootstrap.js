@@ -69,3 +69,6 @@ require("gasparesganga-jquery-loading-overlay/dist/loadingoverlay.min.js");
 
 // window.chart = require('chart.js');
 window.chart = require('chart.js');
+
+// window.Tour =require('bootstrap-tour');
+// import Tour from 'bootstrap-tour'
