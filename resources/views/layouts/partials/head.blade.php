@@ -6,7 +6,10 @@
 <!-- Fonts -->
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.20/b-1.6.1/b-colvis-1.6.1/b-flash-1.6.1/b-html5-1.6.1/b-print-1.6.1/datatables.min.css"/>
+ 
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 {{-- <script src="{{ asset('js/Chart.bundle.js') }}" defer></script> --}}
 {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 {{-- <link href="{{ asset('css/loading.css') }}" rel="stylesheet"> --}}
