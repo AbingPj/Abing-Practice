@@ -10,12 +10,20 @@
         </div>
       </div>
     </div>
+<br><br>
+
+
+
   </div>
 </template>
 
 <script>
 export default {
   mounted() {
+
+
+
+
     let myChart2 = document.getElementById("myChart2").getContext("2d");
     let massPopChart = new Chart(myChart2, {
       type: "doughnut", // bar, horinzontalBar, pie, line, doughnut, radar, polarArea

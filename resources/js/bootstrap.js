@@ -11,7 +11,10 @@ try {
     window.$ = window.jQuery = require("jquery");
 
     require("bootstrap");
+    // require( 'datatables.net-bs4' )( window.$ );
 } catch (e) { }
+
+
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
@@ -72,3 +75,6 @@ window.chart = require('chart.js');
 
 // window.Tour =require('bootstrap-tour');
 // import Tour from 'bootstrap-tour'
+
+
+

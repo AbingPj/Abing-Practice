@@ -10,6 +10,8 @@ window.Vue.use(VueEvents);
 
 require('bootstrap-tour');
 
+import DataTable from "datatables.net-bs4";
+
 
 
 /**
