@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/chartjs', function () {
-    return view('chartjs');
-});
+
 
 Route::get('/bstour', function () {
     return view('bstour');
@@ -51,3 +49,14 @@ Route::get('/getuser-posts/{id}', 'UserPostsController@getUserPosts');
 
 // Sample Pusher
 Route::post('/send/pusher', 'PostController@sendPusher');
+
+
+//sample ChartJs
+Route::get('/chartjs', function () {
+    return view('chartjs');
+});
+
+//kart with localstorage
+Route::get('/kart', function () {
+    return view('kart');
+});
